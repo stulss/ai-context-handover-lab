@@ -1,7 +1,7 @@
 # CLAUDE.md — AI Context Handover Lab
 
 > 세션을 시작하면 이 폴더의 `작업내역_체크리스트.md`를 **가장 먼저 한 파일만** 읽는다.
-> 워크스페이스 전체 규칙은 `C:\Users\stuls\Desktop\Agent\law.md`에 있다. 충돌하면 law.md가 우선한다.
+> 워크스페이스 전체 규칙은 이 저장소 상위 폴더의 `../law.md`에 있다 (저장소에 포함되지 않는 로컬 문서). 충돌하면 law.md가 우선한다.
 > 이 프로젝트를 AI B로서 이어받는다면 `docs/HANDOVER_AI_A_TO_B.md`를 먼저 읽는다.
 
 ## 1. 세션 시작 시 읽을 순서

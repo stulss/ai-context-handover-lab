@@ -75,7 +75,7 @@
 > ai-context-handover-lab@0.1.0 test
 > vitest run
 
- RUN  v4.1.11 C:/Users/stuls/Desktop/Agent/ai-context-handover-lab
+ RUN  v4.1.11 ./ai-context-handover-lab
 
  Test Files  5 passed (5)
       Tests  13 passed (13)

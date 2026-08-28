@@ -2,7 +2,7 @@
 
 검증일: 2026-08-28 KST
 작업자: **AI B — OpenAI Codex (Primary Implementer)**
-작업 디렉터리: `C:\Users\stuls\Desktop\Agent\ai-context-handover-lab`
+작업 디렉터리: `./ai-context-handover-lab` (저장소 루트)
 
 > 이 문서와 `evidence/ai-b-*.png`는 AI B가 구현·검증 과정에서 생성한 증거다.
 > `docs/evidence/`에 있는 AI A 증거는 AI B가 수정하거나 삭제하지 않았다.

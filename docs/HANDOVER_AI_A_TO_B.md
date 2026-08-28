@@ -37,7 +37,7 @@
 ## 2. AI B 시작 순서
 
 ```bash
-cd C:/Users/stuls/Desktop/Agent/ai-context-handover-lab
+cd ai-context-handover-lab
 npm install          # node_modules는 이미 설치되어 있음. 없으면 실행
 npm run test         # 먼저 이 문서의 테스트 상태를 독립 검증할 것
 npm run lint
@@ -240,7 +240,7 @@ FAIL: 0 / 10
 - 테스트가 실패해도 삭제·skip·only·todo 처리하지 않는다.
 - 이 문서에 없는 상태를 발견하면 코드 수정 전에 차이를 짧게 기록할 것.
 - AI A의 대화 이력은 제공되지 않는다. 필요한 사실은 저장소, `docs/requirements.md`, `docs/test-plan.md`, `docs/research-summary.md`, 이 문서에서 확인한다.
-- 워크스페이스 헌법 `C:\Users\stuls\Desktop\Agent\law.md`가 이 프로젝트에도 적용된다. 특히 6장(테스트 무력화 금지), 7-1장(코드 수정 시 문서 동시 갱신), 8장(Git 승인 범위).
+- 워크스페이스 헌법 `../law.md`(저장소 상위 폴더의 로컬 문서)가 이 프로젝트에도 적용된다. 특히 6장(테스트 무력화 금지), 7-1장(코드 수정 시 문서 동시 갱신), 8장(Git 승인 범위).
 
 ---
 
