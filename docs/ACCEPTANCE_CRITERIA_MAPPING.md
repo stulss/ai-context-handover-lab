@@ -1,6 +1,6 @@
 # 시스템 수용 기준(Acceptance Criteria) 1:1 추적 매핑
 
-> 변경된 컴플라이언스 및 세부 수용 기준의 정밀 감사 매핑은 [`docs/COMPLIANCE_AUDIT_REPORT.md`](file:///C:/Users/user/ai-context-handover-lab/docs/COMPLIANCE_AUDIT_REPORT.md)를 정본으로 사용한다.
+> 변경된 컴플라이언스 및 세부 수용 기준의 정밀 감사 매핑은 [`COMPLIANCE_AUDIT_REPORT.md`](./COMPLIANCE_AUDIT_REPORT.md)를 정본으로 사용한다.
 
 - 기준: 시스템 초기 개발 요구사양서 원문 및 단계별 엔지니어링 마일스톤
 - 상태 표기: ✅ 충족 / 🔶 부분 충족 / ⬜ 미착수
@@ -63,10 +63,10 @@
 
 | 항목 | 상태 | 비고 |
 |---|---|---|
-| [`docs/05_배포.md`](file:///C:/Users/user/ai-context-handover-lab/docs/05_배포.md) | ✅ | Vercel 프로덕션 및 GitHub 공개 저장소 배포 검증 기록 |
-| [`docs/검증안내서.md`](file:///C:/Users/user/ai-context-handover-lab/docs/검증안내서.md) | ✅ | 4단계 핵심 엔지니어링 검증 절차서 |
-| [`docs/트러블슈팅.md`](file:///C:/Users/user/ai-context-handover-lab/docs/트러블슈팅.md) | ✅ | PPTX PowerPoint 렌더링 호환성 이슈 분석 및 해결 아카이브 |
-| [`docs/AI_3줄.md`](file:///C:/Users/user/ai-context-handover-lab/docs/AI_3줄.md) | ✅ | AI 위임 영역 / 엔지니어링 의사결정 / AI 제안 반려 및 통제 기준 |
-| [`docs/포트폴리오_추가용_소개글.md`](file:///C:/Users/user/ai-context-handover-lab/docs/포트폴리오_추가용_소개글.md) | ✅ | 핵심 연구 배경, 멀티에이전트 인계 가설, TDD 무결성, 정량/정성 성과 수록 Executive Summary 완성 |
+| [`05_배포.md`](./05_배포.md) | ✅ | Vercel 프로덕션 및 GitHub 공개 저장소 배포 검증 기록 |
+| [`검증안내서.md`](./검증안내서.md) | ✅ | 4단계 핵심 엔지니어링 검증 절차서 |
+| [`트러블슈팅.md`](./트러블슈팅.md) | ✅ | PPTX PowerPoint 렌더링 호환성 이슈 분석 및 해결 아카이브 |
+| [`AI_3줄.md`](./AI_3줄.md) | ✅ | AI 위임 영역 / 엔지니어링 의사결정 / AI 제안 반려 및 통제 기준 |
+| [`포트폴리오_추가용_소개글.md`](./포트폴리오_추가용_소개글.md) | ✅ | 핵심 연구 배경, 멀티에이전트 인계 가설, TDD 무결성, 정량/정성 성과 수록 Executive Summary 완성 |
 | Vercel 프로덕션 배포 | ✅ | https://ai-context-handover-lab.vercel.app/ (HTTP 200) |
-| 엔지니어링 기술 백서 (PPTX / PDF) | ✅ | [`reports/AI_AGENT_HANDOVER_WHITEPAPER.pptx`](file:///C:/Users/user/ai-context-handover-lab/reports/AI_AGENT_HANDOVER_WHITEPAPER.pptx), [`reports/AI_AGENT_HANDOVER_WHITEPAPER.pdf`](file:///C:/Users/user/ai-context-handover-lab/reports/AI_AGENT_HANDOVER_WHITEPAPER.pdf) 12슬라이드 정밀 검증 완료 |
+| 엔지니어링 기술 백서 (PPTX / PDF) | ✅ | [`AI_AGENT_HANDOVER_WHITEPAPER.pptx`](../reports/AI_AGENT_HANDOVER_WHITEPAPER.pptx), [`AI_AGENT_HANDOVER_WHITEPAPER.pdf`](../reports/AI_AGENT_HANDOVER_WHITEPAPER.pdf) 12슬라이드 정밀 검증 완료 |
