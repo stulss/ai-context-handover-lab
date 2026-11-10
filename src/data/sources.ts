@@ -51,6 +51,30 @@ export const SOURCES: Source[] = [
     url: "https://docs.claude.com/en/docs/build-with-claude/context-windows",
     claim: "컨텍스트 창은 모델별로 다르며 대화가 길어지면 오래된 내용이 유실될 수 있다.",
   },
+  {
+    id: "anthropic-claude-3-7-sonnet",
+    title: "Claude 3.7 Sonnet Model Card & Specifications",
+    org: "Anthropic",
+    date: "2025-02",
+    url: "https://docs.anthropic.com/en/docs/about-claude/models",
+    claim: "Claude 3.7 Sonnet은 200,000 토큰(200K) 컨텍스트 창을 제공하며 하이브리드 추론 및 토큰 소비량 기반 한도를 적용한다.",
+  },
+  {
+    id: "openai-gpt-4o-models",
+    title: "OpenAI GPT-4o Model Overview & Context Limits",
+    org: "OpenAI",
+    date: "2024-05",
+    url: "https://platform.openai.com/docs/models/gpt-4o",
+    claim: "GPT-4o 모델은 128,000 토큰(128K) 컨텍스트 창을 지원하며 입출력 토큰 사용량에 따라 한도가 산정된다.",
+  },
+  {
+    id: "google-gemini-2-0-models",
+    title: "Gemini 2.0 Models & Context Window Documentation",
+    org: "Google AI Studio",
+    date: "2025-02",
+    url: "https://ai.google.dev/gemini-api/docs/models/gemini",
+    claim: "Gemini 2.0 Flash 및 Pro 모델은 최대 1,048,576 토큰의 컨텍스트 창을 제공하며 API 토큰 사용량에 따라 한도를 관리한다.",
+  },
 ];
 
 /** 조사 기준일. /sources 페이지에 표시한다. */

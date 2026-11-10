@@ -12,7 +12,7 @@ from pptx.util import Inches, Pt
 ROOT = Path(__file__).resolve().parents[1]
 REPORTS = ROOT / "reports"
 ASSETS = REPORTS / "assets"
-OUTPUT = REPORTS / "과제_제출_보고서2.pptx"
+OUTPUT = REPORTS / "AI_AGENT_HANDOVER_WHITEPAPER.pptx"
 
 BG = "090D12"
 PANEL = "11171E"

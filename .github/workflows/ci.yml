@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  ci:
+    name: CI Pipeline (Node v24)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js v24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npm run typecheck
+
+      - name: Run unit & integration tests
+        run: npm run test
+
+      - name: Custom integrity check (no .skip, .only, .todo)
+        run: |
+          echo "Checking test files for .skip, .only, or .todo..."
+          if git grep -n -E '\.(skip|only|todo)\s*\(' -- 'src/**/*.test.*'; then
+            echo "::error::Integrity check failed: Found focused or skipped tests (.skip, .only, .todo) in test suite."
+            exit 1
+          fi
+          echo "Integrity check passed: No .skip, .only, or .todo found in test suite."
